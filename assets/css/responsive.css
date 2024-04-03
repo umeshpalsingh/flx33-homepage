@@ -1,0 +1,797 @@
+@media(min-width:1600px) {
+	.container {
+		max-width: 1600px
+	}
+	.site-header .container,
+	.book_class_modal .container,
+	.experience-section .container {
+		max-width: 1624px;
+	}
+}
+@media (max-width: 1599px) {
+	:root {
+		--fs-40: 36px;
+	}
+	.site-header .main-navigation .menu-list li a {
+		font-size: 18px;
+	}
+	.book-class {
+		font-size: 22px;
+		max-width: 480px;
+		width: 480px;
+	}
+	.loader-image {
+		max-width: 300px;
+	}
+	.preloader, .loader-image {
+		transition: all 1s ease-in-out;
+	}
+	.book_class_modal .modal-dialog .modal-img,
+	.book_class_modal .modal-dialog form .form-box {
+		max-width: 540px;
+	}
+	.book_class_modal .modal-dialog .modal-content::after {
+		background-position-y: -140px;
+		background-position-x: -280px;
+	}
+	.modal-heading {
+		font-size: 36px;
+	}
+	.modal-subheading {
+		font-size: 28px;
+		margin-bottom: 30px;
+	}
+	.book_class_modal .modal-dialog form input[type="submit"] {
+		font-size: 22px;
+		padding: 12px 40px;
+	}
+	.footer-stripe-message,
+	.purple-stripe-message {
+		font-size: 26px;
+	}
+	.main-footer .footer-wrap .footer-menu li a, .main-footer .footer-wrap .flx-contact a {
+		font-size: 22px;
+	}
+	.footer-box {
+		gap: 150px;
+	}
+	.main-footer::after {
+		background-size: 440px;
+	}
+	.welcome-holder span {
+		font-size: 80px;
+	}
+	.welcome-holder span.rotate {
+		font-size: 55px;
+		left: -110px;
+	}
+	.hero-stripe-message {
+		font-size: 40px;
+	}
+	.cycle-heading {
+		font-size: 36px;
+	}
+	.cycle-description {
+		font-size: 22px;
+	}
+	.universal-btn {
+		font-size: 22px;
+	}
+	.cycle-img img {
+		max-width: 320px;
+		width: 100%;
+	}
+	.purple-stripe {
+		padding: 20px 10px;
+	}
+	.spivi-media {
+		max-width: 600px;
+	}
+	.triangle-img {
+		max-width: 760px;
+	}
+	.spivi-software-box::after {
+		width: 600px;
+		height: 600px;
+	}
+	.premium-box::after {
+		height: 420px;
+	}
+	.studio-video iframe {
+		height: 740px;
+	}
+	.fitness33 {
+		max-width: 420px;
+		top: -120px;
+	}
+	.plan-wrapper {
+		padding: 40px 32px;
+	}
+	.plan-title {
+		font-size: 20px;
+	}
+	.plan-wrapper .pricing {
+		font-size: 50px;
+	}
+	.plan-wrapper .pricing span {
+		font-size: 32px;
+	}
+	.plan-wrapper.membership .pricing {
+		font-size: 80px;
+	}
+	.plan-wrapper.membership .pricing span {
+		font-size: 42px;
+	}
+	span.x-image {
+		animation: none;
+	}
+}
+@media (max-width: 1399px) {
+	:root {
+		--fs-40: 32px;
+	}
+	.site-header .main-navigation .menu-list li a {
+		font-size: 16px;
+	}
+	.site-header .main-navigation .menu-list,
+	.site-header .main-navigation ul.menu-list.second {
+		gap: 30px;
+	}
+	.book-class {
+		font-size: 20px;
+		max-width: 410px;
+		width: 410px;
+		height: 50px;
+	}
+	.book_class_box {
+		top: -4px;
+	}
+	.book_class_modal .modal-dialog .modal-img, .book_class_modal .modal-dialog form .form-box {
+		max-width: 480px;
+	}
+	.modal-heading {
+		font-size: 32px;
+	}
+	.modal-subheading {
+		font-size: 24px;
+	}
+	.book_class_modal .modal-dialog form input[type="submit"] {
+		font-size: 20px;
+	}
+	.book_class_modal .modal-dialog .modal-content::after {
+		background-position-y: 50%;
+		background-position-x: 45%;
+		background-size: 180%;
+	}
+	.footer-stripe-message,
+	.purple-stripe-message {
+		font-size: 22px;
+	}
+	.footer-logo {
+		max-width: 300px;
+		width: 100%;
+	}
+	.footer-box {
+		gap: 100px;
+	}
+	.footer-wrapper {
+		gap: 80px;
+	}
+	.main-footer::after {
+		background-size: 400px;
+	}
+	.main-footer .footer-wrap .footer-menu li a,
+	.main-footer .footer-wrap .flx-contact a {
+		font-size: 20px;
+	}
+	.copyright .copyright-wrap p {
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	.footer-stripe {
+		padding: 20px 0;
+	}
+	.welcome-holder span {
+		font-size: 70px;
+		line-height: 1.5;
+	}
+	.welcome-holder span.rotate {
+		top: 38%;
+	}
+	.hero-stripe-message {
+		font-size: 32px;
+	}
+	.training-box {
+		gap: 60px;
+	}
+	.training-options {
+		gap: 30px;
+	}
+	.training-options {
+		max-width: 540px;
+	}
+	.training-options .training-item {
+		padding: 20px;
+	}
+	.cycle-heading {
+		font-size: 32px;
+		margin-bottom: 20px;
+	}
+	.cycle-description {
+		font-size: 20px;
+		line-height: 1.4;
+		margin-bottom: 30px;
+	}
+	.outlined-img {
+		max-width: 400px;
+		width: 100%;
+	}
+	.universal-btn {
+		font-size: 20px;
+		padding: 12px 40px;
+	}
+	.triangle-img {
+		max-width: 600px;
+	}
+	.spivi-media {
+		max-width: 460px;
+	}
+	.spivi-software-section {
+		transform: translateY(-34%);
+	}
+	.hero-stripe {
+		padding: 20px 10px;
+	}
+	.community-msg {
+		max-width: 900px;
+	}
+	.premium-box::after {
+		height: 360px;
+	}
+	.studio-video iframe {
+		height: 640px;
+	}
+	.fitness33 {
+		max-width: 400px;
+	}
+	.premium-box::before {
+		height: 700px;
+	}
+	.plan-title {
+		padding-bottom: 20px;
+		margin-bottom: 20px;
+	}
+	.plan-wrapper .pricing {
+		font-size: 44px;
+	}
+	.plan-wrapper.membership .pricing {
+		font-size: 70px;
+	}
+	.plan-wrapper.membership .pricing span {
+		font-size: 38px;
+	}
+	.plan-wrapper.membership {
+		height: 760px;
+		overflow-y: auto;
+	}
+}
+@media (max-width: 1199px) {
+	:root {
+		--fs-40: 30px;
+	}
+	.site-header .main-navigation .menu-list li a {
+		font-size: 15px;
+	}
+	.site-header .main-navigation .menu-list, .site-header .main-navigation ul.menu-list.second {
+		gap: 24px;
+	}
+	.book-class {
+		font-size: 16px;
+		max-width: 360px;
+		width: 360px;
+		height: 45px;
+	}
+	.book_class_box {
+		top: -6px;
+	}
+	.book_class_modal .modal-dialog .modal-img, .book_class_modal .modal-dialog form .form-box {
+		max-width: 400px;
+	}
+	.modal-heading {
+		font-size: 28px;
+	}
+	.modal-subheading {
+		font-size: 22px;
+	}
+	.book_class_modal .modal-dialog form input[type="submit"] {
+		font-size: 18px;
+	}
+	.footer-stripe-message,
+	.purple-stripe-message {
+		font-size: 18px;
+	}
+	.footer-logo {
+		max-width: 260px;
+	}
+	.footer-box, .footer-wrapper {
+		gap: 60px;
+	}
+	.social-links {
+		margin-top: 0;
+	}
+	.main-footer::after {
+		background-size: 360px;
+	}
+	.main-footer .footer-wrap .footer-menu li a, 
+	.main-footer .footer-wrap .flx-contact a {
+		font-size: 18px;
+	}
+	.footer-heading {
+		font-size: 22px;
+	}
+	.flx-contact {
+		max-width: 220px;
+		margin-bottom: 20px;
+	}
+	.welcome-holder span {
+		font-size: 60px;
+	}
+	.welcome-holder span.rotate {
+		font-size: 46px;
+		left: -80px;
+	}
+	.hero-stripe-message {
+		font-size: 28px;
+	}
+	.spivi-software-box {
+		gap: 30px;
+	}
+	.cycle-heading {
+		font-size: 26px;
+	}
+	.cycle-description {
+		font-size: 16px;
+	}
+	.training-options {
+		max-width: 460px;
+		gap: 20px;
+	}
+	.training-heading {
+		font-size: 18px;
+		margin: 10px 0;
+	}
+	.training-description {
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	.cycle-img img {
+		max-width: 260px;
+	}
+	.studio-video iframe {
+		height: 540px;
+	}
+	.premium-box::after {
+		height: 320px;
+	}
+	.fitness33 {
+		max-width: 360px;
+	}
+	.plan-wrapper.membership {
+		max-width: 340px;
+		height: 660px;
+	}
+	.plan-wrapper .pricing {
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.plan-wrapper .pricing span {
+		font-size: 24px;
+	}
+	.plan-wrapper.membership .pricing {
+		font-size: 60px;
+	}
+	.plan-wrapper.membership .pricing span {
+		font-size: 32px;
+	}
+	.plan-wrapper {
+		padding: 30px 16px;
+	}
+	.plan-description {
+		margin-bottom: 30px;
+	}
+}
+@media (max-width: 991px) {
+	:root {
+		--fs-40: 26px;
+	}
+	.margin-top {
+		margin-top: 80px;
+	}
+	.hero-section {
+		margin-top: -80px;
+	}
+	.site-header .main-navigation {
+		display: none;
+	}
+	.side-mobile-menu, span.close-menu {
+		display: block	;
+	}
+	.mobile-header-logo-part {
+		display: flex;
+	}
+	.book-class {
+		max-width: 260px;
+		width: 100%;
+		height: auto;
+		padding: 12px 10px;
+		background-size: cover;
+		white-space: nowrap;
+		margin-top: 10px;
+	}
+	.loader-image {
+		max-width: 200px;
+	}
+	.book_class_modal .modal-dialog {
+		flex-direction: column-reverse;
+	}
+	.book_class_modal .modal-dialog .modal-content::before {
+		content: none;
+	}
+	.book_class_modal .modal-dialog {
+		flex-direction: column;
+	}
+	.book_class_modal .modal-dialog .modal-img {
+		display: none
+	}
+	.book_class_modal .modal-dialog form .form-box {
+		max-width: 480px;
+	}
+	.footer-stripe-message,
+	.purple-stripe-message {
+		font-size: 14px;
+	}
+	.main-footer {
+		padding: 100px 0 20px;
+	}
+	.copyright {
+		padding: 10px 0;
+	}
+	.copyright .copyright-wrap {
+		flex-direction: column;
+		gap: 2px;
+	}
+	.footer-heading {
+		font-size: 20px;
+	}
+	.footer-logo {
+		max-width: 200px;
+	}
+	.footer-box, .footer-wrapper {
+		gap: 40px;
+	}
+	.main-footer .footer-wrap .footer-menu li a, .main-footer .footer-wrap .flx-contact a {
+		font-size: 15px;
+	}
+	.flx-contact {
+		margin-bottom: 14px;
+	}
+	.social-links {
+		margin-left: 0;
+	}
+	.main-footer::after {
+		background-size: 260px;
+	}
+	.welcome-holder span {
+		font-size: 50px;
+	}
+	.welcome-holder span.rotate {
+		font-size: 40px;
+		left: -60px;
+	}
+	.hero-stripe-message {
+		font-size: 20px;
+	}
+	.spivi-software-box::after {
+		width: 300px;
+		height: 300px;
+	}
+	.spivi-software-section {
+		background-image: none !important;
+		padding: 20px 0;
+	}
+	.training-section {
+		padding: 130px 0 100px;
+	}
+	.cycle-img {
+		bottom: 0;
+	}
+	.cycle-img img {
+		max-width: 180px;
+	}
+	.training-box {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.cycle-classes, 
+	.spivi-content, 
+	.spivi-media,
+	.training-options,
+	.fitness-content {
+		max-width: 100%;
+		width: 100%;
+	}
+	.spivi-software-box {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.spivi-software-section, .community-grip, .experience-section {
+		transform: none;
+	}
+	.studio-video iframe {
+		height: 420px;
+	}
+	.experience-section {
+		padding: 40px 0;
+	}
+	.premium-box::after, .premium-box::before {
+		content: none;
+	}
+	.fitness33 {
+		max-width: 260px;
+	}
+	.fitness-wrapper {
+		flex-direction: column;
+		gap: 40px;
+	}
+	.membership-plans {
+		flex-direction: column;
+		margin-top: 40px;
+	}
+	.plan-wrapper, .plan-wrapper.membership {
+		max-width: 100%;
+		width: 100%;
+		height: auto;
+	}
+	.plan-wrapper .pricing, 
+	.plan-wrapper.membership .pricing,
+	.plan-description {
+		text-align: left;
+	}
+	.pricing-section {
+		transform: none;
+		padding: 60px 0;
+	}	
+	.welcome-holder span:nth-child(2),
+	.welcome-holder span:nth-child(3),
+	.welcome-holder span.rotate,
+	.welcome-holder span:last-child {
+		animation: none;
+	}
+
+}
+@media (max-width: 767px) {
+	:root {
+		--fs-40: 22px;
+	}
+	.footer-box {
+		flex-direction: column;
+	}
+	.social-links .footer-heading {
+		text-align: left;
+	}
+	.social-links {
+		margin-top: 20px;
+	}
+	.footer-heading {
+		font-size: 18px;
+	}
+	.main-footer .footer-wrap .footer-menu li a,
+	.main-footer .footer-wrap .flx-contact a {
+		font-size: 14px;
+	}
+	.flx-contact {
+		max-width: 180px;
+	}
+	.social-links ul {
+		gap: 20px;
+	}
+	.social-links ul li img {
+		width: 24px;
+	}
+	.main-footer::after {
+		background-size: 220px;
+	}
+	.footer-stripe {
+		padding: 14px 0;
+	}
+	.copyright .copyright-wrap p {
+		font-size: 11px;
+	}
+	.welcome-holder span {
+		font-size: 40px;
+	}
+	.welcome-holder span.rotate {
+		font-size: 30px;
+		left: -35px;
+		letter-spacing: normal;
+	}
+	.welcome-holder {
+		left: 15%;
+	}
+	.hero-stripe-message {
+		font-size: 16px;
+	}
+	.hero-stripe {
+		width: 104%;
+		transform: rotate(4.108deg) translateY(-30px) translateX(-10px);
+	}
+	.cycle-img img {
+		max-width: 100px;
+	}
+	.cycle-img {
+		bottom: 90px;
+	}
+	.cycle-heading {
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+	.cycle-description {
+		margin-bottom: 20px;
+	}
+	.universal-btn {
+		font-size: 18px;
+	}
+	.outlined-img {
+		max-width: 200px;
+		top: 100px;
+	}
+	.purple-stripe {
+		width: 104%;
+	}
+	.studio-video iframe {
+		height: 320px;
+	}
+	.premium-box {
+		margin-top: 50px;
+	}
+	.plan-wrapper.membership .plan-title {
+		font-size: 20px;
+	}
+	.plan-wrapper.membership .pricing {
+		font-size: 50px;
+	}
+	.plan-wrapper.membership .pricing span {
+		bottom: 10px;
+	}
+	span.x-image {
+		transform: translate(-150px, -70px);
+	}
+}
+@media (max-width: 575px) {
+	:root {
+		--fs-40: 20px;
+	}
+	.book_class_modal .modal-dialog .modal-img {
+		height: 200px;
+	}
+	.book_class_modal .modal-dialog .modal-content {
+		padding: 20px;
+	}
+	.modal-heading {
+		font-size: 24px;
+	}
+	.modal-subheading {
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+	.welcome-holder span.rotate {
+		position: static;
+		transform: none;
+		display: block;
+	}
+	.welcome-holder span, .welcome-holder span.rotate {
+		margin: 0;
+		font-size: 24px;
+		line-height: 1.2;
+	}
+	.welcome-holder span {
+		display: inline;
+	}
+	.welcome-holder .title-holder .main-title {
+		line-height: 1;
+		text-align: center;
+	}
+	.welcome-holder {
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	.hero-stripe {
+		transform: rotate(4.108deg) translateY(-20px) translateX(-10px);
+	}
+	.hero-stripe-message {
+		font-size: 14px;
+		letter-spacing: normal;
+		display: block;
+		text-align: center;
+		line-height: 1.2;
+		padding: 0 10px;
+	}
+	.training-section {
+		padding: 180px 0 100px;
+	}
+	.cycle-heading {
+		font-size: 22px;
+	}
+	.cycle-description {
+		margin-bottom: 20px;
+	}
+	.universal-btn {
+		font-size: 16px;
+	}
+	.training-description {
+		font-size: 12px;
+		margin-bottom: 10px;
+	}
+	.training-heading {
+		font-size: 16px;
+	}
+	.join-now {
+		font-size: 15px;
+	}
+	.cycle-description {
+		font-size: 15px;
+	}
+	.training-options {
+		gap: 10px;
+	}
+	.training-options .training-item {
+		padding: 20px 10px;
+	}
+	.fitness33 {
+		max-width: 160px;
+		top: -60px;
+	}
+}
+@media (max-width: 428px) {
+	:root {
+		--fs-40: 18px;
+	}
+	.book_class_modal .modal-dialog form .form-box {
+		gap: 16px;
+	}
+	.book_class_modal .modal-dialog form .form-box .input-box {
+		max-width: 100%;
+		width: 100%;
+	}
+	.copyright {
+		padding: 8px 0;
+	}
+	.copyright .copyright-wrap p {
+		font-size: 10px;
+	}
+	.welcome-holder span, .welcome-holder span.rotate {
+		font-size: 20px;
+	}
+	.hero-stripe {
+		transform: rotate(4.108deg) translateY(-15px) translateX(-10px);
+		width: 103%;
+	}
+	.studio-video iframe {
+		height: 230px;
+	}
+}
+@media (max-width: 360px) {
+	:root {
+		--fs-40: 16px;
+	}
+	.welcome-holder span, .welcome-holder span.rotate {
+		font-size: 18px;
+		line-height: 1;
+	}
+	.welcome-holder .title-holder .main-title {
+		padding: 0;
+	}
+	.training-options {
+		grid-template-columns: 1fr;
+	}
+}
